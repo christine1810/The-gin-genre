@@ -1,0 +1,213 @@
+body{         width: 100%;
+              margin: auto;
+              text-align: center;
+              color: #3B3A3A;
+              font-family: 'Nunito', 'Libre Franklin', sans-serif;
+              letter-spacing: 1px;}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1;
+
+  
+}
+
+.image {width: 75%;
+        text-align: center;
+        padding: 1em 1em .5em 2em;
+        
+}
+
+.tool-image{
+    width: 75%;
+    padding: 3em 2em 3em 2em;
+    align-items: center;
+    
+}
+.right {display: grid; text-align:center; align-content: center;padding: 1em;}
+
+
+
+.monogram{
+    text-align: left;
+}
+
+.monogram img{
+     text-align: left;
+     width: 2.3em;
+     height: 2.1em;
+     padding: 0.75em;
+     position:fixed;
+     background-color: none;
+     z-index: 2;}
+
+/*----nav styling section----*/
+
+nav{ 
+     position: relative;
+     width: 100%;}
+
+       nav ul{   margin: auto;
+                 padding: 1.5em;
+                 text-align: right;
+                 text-transform: lowercase;
+                 letter-spacing: 1px;
+                 word-spacing: 3em;
+                 font-size: 12px;}
+        nav ul li{ 
+                   display: inline-block;
+                   position: right;
+                   }
+
+
+        nav a:link{ color: #121212;
+                    text-decoration: none;}
+
+        nav a:visited{ color: #121212}
+
+        nav a:hover{ border-bottom: none;                          color: #9ECED2}
+
+/*----END of button styling section----*/
+
+
+
+
+
+
+
+/*----END of nav styling section----*/
+
+
+/*----main / end image styling section----*/
+
+
+.main img{ 
+    width: 100%;
+
+
+}
+
+.end img{
+    width: 100%;
+}
+
+
+/*----main / end image styling section----*/
+
+
+.monogram{
+    text-align: left;
+}
+
+.monogram img{
+     text-align: left;
+     width: 55px;
+     height: 50px;
+     padding: 20px 0px 0px 20px;
+     position:fixed;
+     background-color: none;
+     text-align: center;
+     top: 0px;
+     z-index: 2;}
+
+/*----END of main styling section----*/
+
+
+
+/*----text styling section----*/
+
+
+
+p{  text-align: left;
+    margin: 2em;
+    grid-column: 2;
+    font-size: 1em;
+   
+    
+}
+
+
+h1, h2, h3, h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+h1{
+    text-align: center;
+    grid-column: 2;
+    color: #F66E53;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 4em;
+    padding: .25em;
+}
+
+h2 {
+    text-align: center;
+    grid-column: 2;
+    color: #F66E53;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 1.75em;
+     
+} 
+    
+
+
+h3{ 
+    text-align: center;
+    color: #F66E53;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 2em;
+    
+}
+
+
+h4{
+    text-align: center;
+    color: #F66E53;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 3em;
+}
+
+
+.connect-text{
+    padding-top: 4em;
+    margin: 2em;
+    font-size: 0.75em;
+}
+
+
+.footer{
+    padding: 1em;
+    font-size: 0.75em;
+}
+
+/*-----END of text styling section----*/
+
+
+
+/*----- button styling section----*/
+
+.button4{
+    text-align: right;
+    padding-right: 10%; 
+}
+
+.button4 img{
+    text-align: right;
+    width: 10em;
+    padding-bottom: 1em;
+    
+}
+
+.button4 a:hover img { 
+            border-bottom: none;
+            transition: all 0.3s ease-in-out; transform:scale(1.1)}
+
+
+/*-----END of button styling section----*/
+
+
+
+ 
